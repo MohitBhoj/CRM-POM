@@ -44,7 +44,7 @@ public class LoginPage extends CRM_Base{
 	
 }
 	
-	public HomePage login(String email, String pwd) {
+	public HomePage login(String email, String pwd) throws IOException {
 		
 		email_Address.click();
 		email_Address.clear();
@@ -53,7 +53,6 @@ public class LoginPage extends CRM_Base{
 		password.clear();
 		password.sendKeys(pwd);
 		login_Button.click();
-		
 		return new HomePage();
 		
 	}

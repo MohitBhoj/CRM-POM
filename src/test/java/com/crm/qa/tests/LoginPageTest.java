@@ -43,7 +43,7 @@ public class LoginPageTest extends CRM_Base {
 	
 	
 	@Test(priority=2)
-	public void login_Test() {
+	public void login_Test() throws IOException {
 		
 		homePage = loginPage.login(prop.getProperty("emailaddress"), prop.getProperty("password"));
 		
