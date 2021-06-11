@@ -51,7 +51,7 @@ public class HomePage extends CRM_Base{
 		
 	}
 	
-	public ContactPage click_On_Create_Contact() {
+	public ContactPage click_On_Create_Contact() throws IOException {
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(contacts).build().perform();
