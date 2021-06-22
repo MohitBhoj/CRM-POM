@@ -62,7 +62,7 @@ public class HomePageTest extends CRM_Base {
 	}
 	
 	@Test(priority=4)
-	public void click_On_Create_Contact_Test() {
+	public void click_On_Create_Contact_Test() throws IOException {
 		
 		contactPage = homePage.click_On_Create_Contact();
 	
