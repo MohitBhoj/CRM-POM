@@ -25,11 +25,10 @@ public class LoginPage extends CRM_Base{
 	WebElement forgot_Password_Link;
 	
 	@FindBy(xpath = "//a[contains(text(),'Classic CRM')]")
-	WebElement classi_CRM_Link;
+	WebElement classic_CRM_Link;
 	
 	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
 	WebElement sign_Up_Link;
-	
 	
 	public LoginPage() throws IOException {
 		

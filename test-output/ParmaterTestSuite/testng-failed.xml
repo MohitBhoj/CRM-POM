@@ -11,18 +11,8 @@
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="main_Page_Login_Btn_Click_Test"/>
-          <include name="crm_Logo_Test"/>
-          <include name="Main_Page_Title_Test"/>
         </methods>
       </class> <!-- com.crm.qa.tests.MainPageTest -->
-      <class name="com.crm.qa.tests.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="login_Test"/>
-          <include name="login_Page_Title_Test"/>
-        </methods>
-      </class> <!-- com.crm.qa.tests.LoginPageTest -->
     </classes>
   </test> <!-- CRMTest(failed) -->
 </suite> <!-- Failed suite [ParmaterTestSuite] -->
