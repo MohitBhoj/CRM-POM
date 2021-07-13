@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-07T19:02:46 IST" name="ParmaterTestSuite" finished-at="2021-07-07T19:03:33 IST" duration-ms="46601">
+  <suite started-at="2021-07-07T19:27:39 IST" name="ParmaterTestSuite" finished-at="2021-07-07T19:28:20 IST" duration-ms="41045">
     <groups>
     </groups>
-    <test started-at="2021-07-07T19:02:46 IST" name="CRMTest" finished-at="2021-07-07T19:03:33 IST" duration-ms="46601">
+    <test started-at="2021-07-07T19:27:39 IST" name="CRMTest" finished-at="2021-07-07T19:28:20 IST" duration-ms="41045">
       <class name="com.crm.qa.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7c24b813]" started-at="2021-07-07T19:02:46 IST" name="setUp" finished-at="2021-07-07T19:02:56 IST" duration-ms="10307" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@26e356f0]" started-at="2021-07-07T19:28:03 IST" name="setUp" finished-at="2021-07-07T19:28:12 IST" duration-ms="8966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login_Page_Title_Test()[pri:1, instance:com.crm.qa.tests.LoginPageTest@7c24b813]" started-at="2021-07-07T19:02:56 IST" name="login_Page_Title_Test" finished-at="2021-07-07T19:02:56 IST" duration-ms="16" status="PASS">
+        <test-method signature="login_Page_Title_Test()[pri:1, instance:com.crm.qa.tests.LoginPageTest@26e356f0]" started-at="2021-07-07T19:28:12 IST" name="login_Page_Title_Test" finished-at="2021-07-07T19:28:12 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Page_Title_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7c24b813]" started-at="2021-07-07T19:02:56 IST" name="tearDown" finished-at="2021-07-07T19:02:57 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@26e356f0]" started-at="2021-07-07T19:28:12 IST" name="tearDown" finished-at="2021-07-07T19:28:13 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7c24b813]" started-at="2021-07-07T19:02:57 IST" name="setUp" finished-at="2021-07-07T19:03:06 IST" duration-ms="9392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login_Test()[pri:2, instance:com.crm.qa.tests.LoginPageTest@7c24b813]" started-at="2021-07-07T19:03:06 IST" name="login_Test" finished-at="2021-07-07T19:03:09 IST" duration-ms="3556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7c24b813]" started-at="2021-07-07T19:03:09 IST" name="tearDown" finished-at="2021-07-07T19:03:10 IST" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.tests.LoginPageTest -->
-      <class name="com.crm.qa.tests.MainPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:10 IST" name="setUp" finished-at="2021-07-07T19:03:16 IST" duration-ms="6256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="crm_Logo_Test()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:16 IST" name="crm_Logo_Test" finished-at="2021-07-07T19:03:18 IST" duration-ms="1812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crm_Logo_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:18 IST" name="tearDown" finished-at="2021-07-07T19:03:18 IST" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:18 IST" name="setUp" finished-at="2021-07-07T19:03:25 IST" duration-ms="7303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Main_Page_Title_Test()[pri:1, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:25 IST" name="Main_Page_Title_Test" finished-at="2021-07-07T19:03:25 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Main_Page_Title_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:25 IST" name="tearDown" finished-at="2021-07-07T19:03:25 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:25 IST" name="setUp" finished-at="2021-07-07T19:03:31 IST" duration-ms="5634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="main_Page_Login_Btn_Click_Test()[pri:2, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:31 IST" name="main_Page_Login_Btn_Click_Test" finished-at="2021-07-07T19:03:33 IST" duration-ms="1665" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@26e356f0]" started-at="2021-07-07T19:28:13 IST" name="setUp" finished-at="2021-07-07T19:28:20 IST" duration-ms="7459" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
@@ -70,8 +28,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'mohit-H110M-H', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-59-generic', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1NGAXU}, goog:chromeOptions: {debuggerAddress: localhost:38335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 390915992d6a94ff5d7a0ea8c1bc3081]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.lEFTaW}, goog:chromeOptions: {debuggerAddress: localhost:34001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be9d2b789c330b4873437674ad83dee8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -80,8 +38,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'mohit-H110M-H', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-59-generic', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1NGAXU}, goog:chromeOptions: {debuggerAddress: localhost:38335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 390915992d6a94ff5d7a0ea8c1bc3081
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.lEFTaW}, goog:chromeOptions: {debuggerAddress: localhost:34001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be9d2b789c330b4873437674ad83dee8
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -116,13 +74,17 @@ at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions
 at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 at com.crm.qa.pages.MainPage.click_On_LoginBtn(MainPage.java:60)
-at com.crm.qa.tests.MainPageTest.main_Page_Login_Btn_Click_Test(MainPageTest.java:52)
+at com.crm.qa.tests.LoginPageTest.setUp(LoginPageTest.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -150,8 +112,140 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_Test()[pri:2, instance:com.crm.qa.tests.LoginPageTest@26e356f0]" started-at="2021-07-07T19:28:20 IST" name="login_Test" finished-at="2021-07-07T19:28:20 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mohit-H110M-H', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-59-generic', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.lEFTaW}, goog:chromeOptions: {debuggerAddress: localhost:34001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be9d2b789c330b4873437674ad83dee8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mohit-H110M-H', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-59-generic', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.lEFTaW}, goog:chromeOptions: {debuggerAddress: localhost:34001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be9d2b789c330b4873437674ad83dee8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.crm.qa.pages.MainPage.click_On_LoginBtn(MainPage.java:60)
+at com.crm.qa.tests.LoginPageTest.setUp(LoginPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@26e356f0]" started-at="2021-07-07T19:28:20 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1625666300500" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+      <class name="com.crm.qa.tests.MainPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:39 IST" name="setUp" finished-at="2021-07-07T19:27:45 IST" duration-ms="5966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crm_Logo_Test()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:45 IST" name="crm_Logo_Test" finished-at="2021-07-07T19:27:46 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crm_Logo_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:46 IST" name="tearDown" finished-at="2021-07-07T19:27:46 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:46 IST" name="setUp" finished-at="2021-07-07T19:27:52 IST" duration-ms="5647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Main_Page_Title_Test()[pri:1, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:52 IST" name="Main_Page_Title_Test" finished-at="2021-07-07T19:27:53 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Main_Page_Title_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:53 IST" name="tearDown" finished-at="2021-07-07T19:27:54 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:27:54 IST" name="setUp" finished-at="2021-07-07T19:28:00 IST" duration-ms="5901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="main_Page_Login_Btn_Click_Test()[pri:2, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:28:00 IST" name="main_Page_Login_Btn_Click_Test" finished-at="2021-07-07T19:28:03 IST" duration-ms="3477" status="PASS">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- main_Page_Login_Btn_Click_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.MainPageTest@26e356f0]" started-at="2021-07-07T19:03:33 IST" name="tearDown" finished-at="2021-07-07T19:03:33 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.tests.MainPageTest@7c24b813]" started-at="2021-07-07T19:28:03 IST" name="tearDown" finished-at="2021-07-07T19:28:03 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -59,8 +59,8 @@ public class MainPage extends CRM_Base {
         WebDriverWait wait = new WebDriverWait(driver,20);
         wait.until(ExpectedConditions.elementToBeClickable(Got_It));
 		Got_It.click();
-       
-        wait.until(ExpectedConditions.elementToBeClickable(main_Page_Login_Btn));
+		WebDriverWait wait1 = new WebDriverWait(driver,20);       
+        wait1.until(ExpectedConditions.elementToBeClickable(main_Page_Login_Btn));
 		main_Page_Login_Btn.click();
 		return new LoginPage();
 	}

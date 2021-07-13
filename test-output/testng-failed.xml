@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="CRMTest(failed)">
     <classes>
-      <class name="com.crm.qa.tests.MainPageTest">
+      <class name="com.crm.qa.tests.LoginPageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="main_Page_Login_Btn_Click_Test"/>
+          <include name="setUp"/>
+          <include name="login_Test"/>
         </methods>
-      </class> <!-- com.crm.qa.tests.MainPageTest -->
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
     </classes>
   </test> <!-- CRMTest(failed) -->
 </suite> <!-- Failed suite [ParmaterTestSuite] -->

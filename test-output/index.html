@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ParmaterTestSuite" class="navigator-link">
-              <span class="suite-name border-failed">ParmaterTestSuite</span>
+              <span class="suite-name border-skipped">ParmaterTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-ParmaterTestSuite" class="hide-methods failed suite-ParmaterTestSuite"> (hide)</a> <!-- hide-methods failed suite-ParmaterTestSuite -->
-                      <a href="#" panel-name="suite-ParmaterTestSuite" class="show-methods failed suite-ParmaterTestSuite"> (show)</a> <!-- show-methods failed suite-ParmaterTestSuite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ParmaterTestSuite" class="hide-methods skipped suite-ParmaterTestSuite"> (hide)</a> <!-- hide-methods skipped suite-ParmaterTestSuite -->
+                      <a href="#" panel-name="suite-ParmaterTestSuite" class="show-methods skipped suite-ParmaterTestSuite"> (show)</a> <!-- show-methods skipped suite-ParmaterTestSuite -->
                     </span>
-                    <div class="method-list-content failed suite-ParmaterTestSuite">
+                    <div class="method-list-content skipped suite-ParmaterTestSuite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParmaterTestSuite" title="com.crm.qa.tests.MainPageTest" class="method navigator-link" hash-for-method="main_Page_Login_Btn_Click_Test">main_Page_Login_Btn_Click_Test</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParmaterTestSuite" title="com.crm.qa.tests.LoginPageTest" class="method navigator-link" hash-for-method="login_Test">login_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-ParmaterTestSuite -->
+                    </div> <!-- method-list-content skipped suite-ParmaterTestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,7 +133,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParmaterTestSuite" title="com.crm.qa.tests.LoginPageTest" class="method navigator-link" hash-for-method="login_Test">login_Test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParmaterTestSuite" title="com.crm.qa.tests.MainPageTest" class="method navigator-link" hash-for-method="main_Page_Login_Btn_Click_Test">main_Page_Login_Btn_Click_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ParmaterTestSuite -->
@@ -148,25 +148,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ParmaterTestSuite" class="panel ParmaterTestSuite">
-          <div class="suite-ParmaterTestSuite-class-failed">
+          <div class="suite-ParmaterTestSuite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.crm.qa.tests.MainPageTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.crm.qa.tests.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="main_Page_Login_Btn_Click_Test">
-                  </a> <!-- main_Page_Login_Btn_Click_Test -->
-                  <span class="method-name">main_Page_Login_Btn_Click_Test</span>
+                  <a name="login_Test">
+                  </a> <!-- login_Test -->
+                  <span class="method-name">login_Test</span>
                   <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=91.0.4472.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;mohit-H110M-H&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.8.0-59-generic&apos;, java.version: &apos;15.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1NGAXU}, goog:chromeOptions: {debuggerAddress: localhost:38335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 390915992d6a94ff5d7a0ea8c1bc3081
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.lEFTaW}, goog:chromeOptions: {debuggerAddress: localhost:34001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be9d2b789c330b4873437674ad83dee8
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -188,14 +188,14 @@ Session ID: 390915992d6a94ff5d7a0ea8c1bc3081
 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	at com.crm.qa.pages.MainPage.click_On_LoginBtn(MainPage.java:60)
-	at com.crm.qa.tests.MainPageTest.main_Page_Login_Btn_Click_Test(MainPageTest.java:52)
+	at com.crm.qa.tests.LoginPageTest.setUp(LoginPageTest.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames
+... Removed 44 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParmaterTestSuite-class-failed -->
+          </div> <!-- suite-ParmaterTestSuite-class-skipped -->
           <div class="suite-ParmaterTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -207,13 +207,6 @@ Session ID: 390915992d6a94ff5d7a0ea8c1bc3081
                   <a name="login_Page_Title_Test">
                   </a> <!-- login_Page_Title_Test -->
                   <span class="method-name">login_Page_Title_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_Test">
-                  </a> <!-- login_Test -->
-                  <span class="method-name">login_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,6 +231,13 @@ Session ID: 390915992d6a94ff5d7a0ea8c1bc3081
                   <span class="method-name">crm_Logo_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main_Page_Login_Btn_Click_Test">
+                  </a> <!-- main_Page_Login_Btn_Click_Test -->
+                  <span class="method-name">main_Page_Login_Btn_Click_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-ParmaterTestSuite-class-passed -->
         </div> <!-- panel ParmaterTestSuite -->
@@ -255,8 +255,8 @@ Session ID: 390915992d6a94ff5d7a0ea8c1bc3081
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;CRMTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.crm.qa.tests.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.crm.qa.tests.MainPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.tests.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- CRMTest --&gt;
 &lt;/suite&gt; &lt;!-- ParmaterTestSuite --&gt;
@@ -298,30 +298,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login_Test')
-data.setCell(0, 2, 'com.crm.qa.tests.LoginPageTest')
-data.setCell(0, 3, 3556);
+data.setCell(0, 1, 'main_Page_Login_Btn_Click_Test')
+data.setCell(0, 2, 'com.crm.qa.tests.MainPageTest')
+data.setCell(0, 3, 3477);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'crm_Logo_Test')
 data.setCell(1, 2, 'com.crm.qa.tests.MainPageTest')
-data.setCell(1, 3, 1812);
+data.setCell(1, 3, 1406);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'main_Page_Login_Btn_Click_Test')
+data.setCell(2, 1, 'Main_Page_Title_Test')
 data.setCell(2, 2, 'com.crm.qa.tests.MainPageTest')
-data.setCell(2, 3, 1665);
+data.setCell(2, 3, 1366);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Main_Page_Title_Test')
-data.setCell(3, 2, 'com.crm.qa.tests.MainPageTest')
-data.setCell(3, 3, 19);
+data.setCell(3, 1, 'login_Page_Title_Test')
+data.setCell(3, 2, 'com.crm.qa.tests.LoginPageTest')
+data.setCell(3, 3, 6);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login_Page_Title_Test')
+data.setCell(4, 1, 'login_Test')
 data.setCell(4, 2, 'com.crm.qa.tests.LoginPageTest')
-data.setCell(4, 3, 16);
+data.setCell(4, 3, 0);
 window.suiteTableData['ParmaterTestSuite']= { tableData: data, tableDiv: 'times-div-ParmaterTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-ParmaterTestSuite">
               </div> <!-- times-div-ParmaterTestSuite -->
             </div> <!-- times-div -->
@@ -347,71 +347,71 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.crm.qa.tests.MainPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login_Page_Title_Test</span>
-                <span class="method-start">10308 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">10325 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">10457 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login_Test</span>
-                <span class="method-start">19849 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">23406 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.tests.MainPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">23582 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">crm_Logo_Test</span>
-                <span class="method-start">29838 ms</span>
+                <span class="method-start">5967 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31651 ms</span>
+                <span class="method-start">7375 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">31769 ms</span>
+                <span class="method-start">7447 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Main_Page_Title_Test</span>
-                <span class="method-start">39072 ms</span>
+                <span class="method-start">13094 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39092 ms</span>
+                <span class="method-start">14461 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">39160 ms</span>
+                <span class="method-start">15015 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">main_Page_Login_Btn_Click_Test</span>
-                <span class="method-start">44794 ms</span>
+                <span class="method-start">20916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46461 ms</span>
+                <span class="method-start">24394 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_Page_Title_Test</span>
+                <span class="method-start">33431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">33557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_Test</span>
+                <span class="method-start">41019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41022 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
