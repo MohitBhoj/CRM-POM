@@ -1,10 +1,15 @@
 package com.crm.qa.pages;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.CRM_Base;
 
@@ -24,6 +29,9 @@ public class MainPage extends CRM_Base {
 	
 	@FindBy(xpath = "//div[@class = \"rd-navbar-brand\"]/a[@title = \"free crm home\" and @class= \"brand-name\"]")
 	WebElement crmLogo;
+	
+	@FindBy(xpath = "//button[contains(text(),\"Got It\")]")
+	WebElement Got_It;
 	
 	// initializing the Page Objects
 	
@@ -45,9 +53,18 @@ public class MainPage extends CRM_Base {
 		
 		
 	}
+	public void click_on_Got_It() {
+		  WebDriverWait wait = new WebDriverWait(driver,20);
+	        wait.until(ExpectedConditions.elementToBeClickable(Got_It));
+			Got_It.click();
+		
+	}
 
 	public LoginPage click_On_LoginBtn() throws IOException {
 		
+		 click_on_Got_It();
+		WebDriverWait wait1 = new WebDriverWait(driver,20);       
+        wait1.until(ExpectedConditions.elementToBeClickable(main_Page_Login_Btn));
 		main_Page_Login_Btn.click();
 		return new LoginPage();
 	}

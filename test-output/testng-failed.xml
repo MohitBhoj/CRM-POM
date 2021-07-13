@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [ParmaterTestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="CRMTest(failed)">
     <classes>
-      <class name="com.crm.qa.tests.HomePageTest">
+      <class name="com.crm.qa.tests.LoginPageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="click_On_Create_Contact_Test"/>
+          <include name="login_Test"/>
         </methods>
-      </class> <!-- com.crm.qa.tests.HomePageTest -->
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- CRMTest(failed) -->
+</suite> <!-- Failed suite [ParmaterTestSuite] -->

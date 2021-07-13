@@ -8,8 +8,10 @@
 	<test name="CRMTest">
 
 		<classes>
+		
 			<class name="com.crm.qa.tests.MainPageTest" />
 			<class name="com.crm.qa.tests.LoginPageTest" />
+			
 		</classes>
 
 	</test> <!-- Test -->
