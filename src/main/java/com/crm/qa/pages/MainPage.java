@@ -53,12 +53,16 @@ public class MainPage extends CRM_Base {
 		
 		
 	}
+	public void click_on_Got_It() {
+		  WebDriverWait wait = new WebDriverWait(driver,20);
+	        wait.until(ExpectedConditions.elementToBeClickable(Got_It));
+			Got_It.click();
+		
+	}
 
 	public LoginPage click_On_LoginBtn() throws IOException {
 		
-        WebDriverWait wait = new WebDriverWait(driver,20);
-        wait.until(ExpectedConditions.elementToBeClickable(Got_It));
-		Got_It.click();
+		 click_on_Got_It();
 		WebDriverWait wait1 = new WebDriverWait(driver,20);       
         wait1.until(ExpectedConditions.elementToBeClickable(main_Page_Login_Btn));
 		main_Page_Login_Btn.click();
