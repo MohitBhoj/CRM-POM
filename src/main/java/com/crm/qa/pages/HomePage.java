@@ -16,17 +16,17 @@ public class HomePage extends CRM_Base{
 	//Page-Factory ||OR
 	
 	@FindBy(xpath = "//div[@class= 'header item']")
-	WebElement home_Page_Logo;
+	private WebElement home_Page_Logo;
 	
 	@FindBy(xpath = "//span[@class= 'user-display']")
-	WebElement user_Name;
+	private WebElement user_Name;
 	
-	@FindBy(xpath = "//i[@class='users icon']")
-	WebElement contacts;
+	@FindBy(xpath = "//span[contains(text(),\"Contacts\")]")
+	private WebElement contacts;
 	
-	@FindBy(xpath = "//i[@class= 'plus inverted icon']")
-	WebElement create_Contact;
-	
+//	@FindBy(xpath = "//i[@class= 'plus inverted icon']")
+//	private WebElement create_Contact;
+//	
 	public HomePage() throws IOException {
 		
 		PageFactory.initElements(driver, this);
@@ -51,13 +51,13 @@ public class HomePage extends CRM_Base{
 		
 	}
 	
-	public ContactPage click_On_Create_Contact() throws IOException {
+	public ContactsPage click_On_Contact() throws IOException {
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(contacts).build().perform();
-		create_Contact.click();
+		contacts.click();
 		
-		return new ContactPage();
+		return new ContactsPage();
 		
 	}
 	

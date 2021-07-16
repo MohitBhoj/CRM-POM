@@ -6,13 +6,21 @@
   </listeners>
   <test thread-count="5" name="CRMTest(failed)">
     <classes>
-      <class name="com.crm.qa.tests.LoginPageTest">
+      <class name="com.crm.qa.tests.ContactsPageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="Contacts_Heading_Visibility_Test"/>
           <include name="setUp"/>
-          <include name="login_Test"/>
+          <include name="Contacts_Heading_Text_Test"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+      </class> <!-- com.crm.qa.tests.ContactsPageTest -->
+      <class name="com.crm.qa.tests.MainPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="crm_Logo_Test"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.MainPageTest -->
     </classes>
   </test> <!-- CRMTest(failed) -->
 </suite> <!-- Failed suite [ParmaterTestSuite] -->
