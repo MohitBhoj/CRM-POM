@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.crm.qa.base.CRM_Base;
-import com.crm.qa.pages.ContactPage;
+import com.crm.qa.pages.ContactsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.pages.MainPage;
@@ -18,7 +18,7 @@ public class HomePageTest extends CRM_Base {
 	MainPage mainPage;
 	LoginPage loginPage;
 	HomePage homePage;
-	ContactPage contactPage;
+	ContactsPage contactPage;
 	
 	
 	public HomePageTest() throws IOException {
@@ -64,7 +64,7 @@ public class HomePageTest extends CRM_Base {
 	@Test(priority=4)
 	public void click_On_Create_Contact_Test() throws IOException {
 		
-		contactPage = homePage.click_On_Create_Contact();
+		contactPage = homePage.click_On_Contact();
 	
 	}
 	

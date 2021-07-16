@@ -13,19 +13,19 @@ public class LoginPage extends CRM_Base{
     // Page Factory || OR:
 	
 	@FindBy(xpath = "//input[contains(@name,'email')]")
-	WebElement email_Address;
+	private WebElement email_Address;
 	
 	@FindBy(xpath = "//input[contains(@name,'password')]")
-	WebElement password;
+	private WebElement password;
 	
 	@FindBy(xpath = "//div[contains(@class,'ui fluid large blue submit button')]")
-	WebElement login_Button;
+	private WebElement login_Button;
 	
 	@FindBy(xpath = "//a[contains(text(),'Forgot your password')]")
-	WebElement forgot_Password_Link;
+	private WebElement forgot_Password_Link;
 	
 	@FindBy(xpath = "//a[contains(text(),'Classic CRM')]")
-	WebElement classic_CRM_Link;
+	private WebElement classic_CRM_Link;
 	
 	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
 	WebElement sign_Up_Link;
