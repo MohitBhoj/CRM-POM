@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.CRM_Base;
 
@@ -47,22 +45,23 @@ public class ContactsPage extends CRM_Base {
 
 	public boolean validate_Contacts_Heading() {
         
-		WebDriverWait wait = new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.visibilityOf(Contacts_Header));
 		return Contacts_Header.isDisplayed();
 
 	}
 
 	public String Validate_Contacts_Header_Text() {
 
+		
 		return Contacts_Header.getText();
 
 	}
 
-	public CreateNewContactPage Click_On_Create() {
+	public CreateNewContactsPage Click_On_Create() throws IOException {
 		
-		Create_Contact.click();
-		return new CreateNewContactPage();
+//		JavascriptExecutor js = ((JavascriptExecutor)driver);
+//		js.executeScript("arguments[0].click();", Create_Contact);
+     	Create_Contact.click();
+		return new CreateNewContactsPage();
 		
 	}
 	
