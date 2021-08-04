@@ -10,7 +10,6 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -23,18 +22,10 @@ public class TestUtil extends CRM_Base {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 20;
-
-	public static String TESTDATA_SHEET_PATH = "./crm/qa/testdata/FreeCrmTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "/home/mohit/eclipse-workspace/POM/src/main/java/com/crm/qa/testdata/CreateContactsTestData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;
-	static JavascriptExecutor js;
-
-	public void switchToFrame() {
-		driver.switchTo().frame("mainpanel");
-	}
 
 	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
 		FileInputStream file = null;
